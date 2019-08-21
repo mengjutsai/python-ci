@@ -23,8 +23,3 @@ def test_neg():
     exp = 0
     assert obs == exp
 
-def test_neg_er():
-    nums = [-1, 1]
-    obs = mean(nums)
-    exp = 19
-    assert obs == exp
